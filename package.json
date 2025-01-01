@@ -4,9 +4,9 @@
   "description": "Twitter clone app using Tailwind CSS",
   "main": "index.js",
   "scripts": {
-  "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch",
-  "build": "tailwindcss -i ./css/input.css -o ./css/output.css --minify"
-},
+    "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "build": "npm install -g tailwindcss && tailwindcss -i ./css/input.css -o ./css/output.css --minify"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
