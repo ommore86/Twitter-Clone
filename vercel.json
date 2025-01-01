@@ -2,9 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "**/*", 
-        "use": "@vercel/static",
-        "out": "css" 
+        "src": "**/*",
+        "use": "@vercel/static" 
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/:path*", 
+        "destination": "/css/:path*" 
       }
     ]
   }
