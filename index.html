@@ -13,66 +13,83 @@
 
 <body class="bg-black text-white">
     <div class="flex container mx-auto">
-        <div class="first w-[70%]">
-            <div class="logo invert my-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                    <g>
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                        </path>
-                    </g>
-                </svg>
-            </div>
+        <div class="first w-16 md:w-[70%]">
 
-            <div class="sidebar flex items-end flex-col">
-                <ul class="flex flex-col text-xl space-y-3 px-11 font-bold">
+            <div class="sidebar flex md:items-end flex-col sticky top-0">
+
+                <div class="logo invert my-4 self-start mx-2 md:mx-16">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+                <ul class="flex flex-col text-2xl space-y-3 md:px-11 font-bold w-full">
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">home</span>Home
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">home</span><span
+                            class="hidden md:block">Home</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">search</span>Explore
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">search</span><span
+                            class="hidden md:block">Explore</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">notifications</span>Notifications
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">notifications</span><span
+                            class="hidden md:block">Notifications</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">mail</span>Messages
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">mail</span><span
+                            class="hidden md:block">Messages</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">chat</span>Grok
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">chat</span><span
+                            class="hidden md:block">Grok</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">bookmark</span>Bookmarks
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">bookmark</span><span
+                            class="hidden md:block">Bookmarks</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">communities</span>Communities
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">communities</span><span
+                            class="hidden md:block">Communities</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">workspace_premium</span>Premium
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">workspace_premium</span><span
+                            class="hidden md:block">Premium</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">more_horiz</span>More
+                        class="flex md:justify-start items-center gap-3 justify-center mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer md:px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">more_horiz</span><span
+                            class="hidden md:block">More</span>
                     </li>
                     <li>
                         <div class="button w-full text-center">
-                            <button class="px-20 py-2 text-xl bg-blue-500 text-white rounded-full">Post</button>
+                            <button
+                                class="hidden md:block px-20 py-2 text-xl bg-white text-black rounded-full">Post</button>
+                            <button class="md:hidden px-4 py-2 text-xl bg-white text-black rounded-full">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="second w-full border-[1px] border-x-white border-y-black">
+        <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
             <div class="top flex p-3 relative">
                 <div class="absolute w-16 h-1 bg-blue-500 bottom-0 left-[17%] rounded-full z-10"></div>
                 <div class="left w-1/2 flex justify-center font-bold text-lg">For you</div>
@@ -122,10 +139,9 @@
                     </div>
                 </div>
             </div>
-            <hr>
 
             <div class="posts">
-                <div class="post">
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
                         <div class="image m-4">
                             <img class="rounded-full w-11"
@@ -166,7 +182,6 @@
                         </div>
                     </div>
                 </div>
-                <hr>
 
                 <div class="post">
                     <div class="flex">
@@ -209,7 +224,7 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+
 
                 <div class="post">
                     <div class="flex">
@@ -252,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+
 
                 <div class="post">
                     <div class="flex">
@@ -295,62 +310,65 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+
             </div>
         </div>
 
-        <div class="third w-full w-1/2">
-            <div class="search m-3">
-                <input type="text" class="rounded-full bg-[#16181c] text-white px-4 py-2 space-y-3"
-                    placeholder="Search">
-            </div>
+        <div class="third w-full hidden md:block">
+            
+            <div class="sticky top-0">
+                <div class="search m-3 sticky top-0">
+                    <input type="text" class="rounded-full bg-[#16181c] text-white px-4 py-2 space-y-3"
+                        placeholder="Search">
+                </div>
+                <div class="whats m-3 bg-[#16181c] w-1/2 py-3 rounded-xl">
+                    <h1 class="text-white text-xl px-3 my-3 font-bold">What's Happening</h1>
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="text-sm text-gray-400">Trending in India</div>
+                        <div class="font-bold">#Orry</div>
+                        <div class="text-sm text-gray-400 ">40.2K posts</div>
+                    </div>
 
-            <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl">
-                <h1 class="text-white text-xl px-3 font-bold">What's Happening</h1>
-                <div class="item my-3 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="text-sm text-gray-400">Trending in India</div>
-                    <div class="font-bold">#Orry</div>
-                    <div class="text-sm text-gray-400 ">40.2K posts</div>
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="text-sm text-gray-400">Trending in India</div>
+                        <div class="font-bold">#IndoBangladeshBorder</div>
+                        <div class="text-sm text-gray-400 ">562K posts</div>
+                    </div>
+
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="text-sm text-gray-400">Trending in India</div>
+                        <div class="font-bold">#GautamGambhir</div>
+                        <div class="text-sm text-gray-400 ">8,652 posts</div>
+                    </div>
+
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="text-sm text-gray-400">Trending in India</div>
+                        <div class="font-bold">#Pushpa2</div>
+                        <div class="text-sm text-gray-400 ">1.1M posts</div>
+                    </div>
                 </div>
 
-                <div class="item my-3 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="text-sm text-gray-400">Trending in India</div>
-                    <div class="font-bold">#IndoBangladeshBorder</div>
-                    <div class="text-sm text-gray-400 ">562K posts</div>
-                </div>
+                <div class="follow m-3 bg-[#16181c] py-3 w-1/2 rounded-xl">
+                    <h1 class="text-white text-xl my-2 px-3 font-bold">Who to follow</h1>
 
-                <div class="item my-3 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="text-sm text-gray-400">Trending in India</div>
-                    <div class="font-bold">#GautamGambhir</div>
-                    <div class="text-sm text-gray-400 ">8,652 posts</div>
-                </div>
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="font-bold">Narendra Modi</div>
+                        <div class="text-sm text-gray-400 ">@narendramodi</div>
+                    </div>
 
-                <div class="item my-3 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="text-sm text-gray-400">Trending in India</div>
-                    <div class="font-bold">#Pushpa2</div>
-                    <div class="text-sm text-gray-400 ">1.1M posts</div>
-                </div>
-            </div>
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="font-bold">Elon Musk</div>
+                        <div class="text-sm text-gray-400 ">@elonmusk</div>
+                    </div>
 
-            <div class="follow m-3 bg-[#16181c] w-1/2 py-2 rounded-xl">
-                <h1 class="text-white text-xl my-2 px-3 font-bold">Who to follow</h1>
-                <div class="item my-1 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="font-bold">Narendra Modi</div>
-                    <div class="text-sm text-gray-400 ">@narendramodi</div>
-                </div>
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="font-bold">SpaceX</div>
+                        <div class="text-sm text-gray-400 ">@SpaceX</div>
+                    </div>
 
-                <div class="item my-1 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="font-bold">Elon Musk</div>
-                    <div class="text-sm text-gray-400 ">@elonmusk</div>
-                </div>
-
-                <div class="item my-1 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="font-bold">SpaceX</div>
-                    <div class="text-sm text-gray-400 ">@SpaceX</div>
-                </div>
-
-                <div class="item my-1 px-3 p-3 hover:bg-gray-800 cursor-pointer">
-                    <div class="text-blue-600 underline">Show More</div>
+                    <div class="item px-3 p-3 hover:bg-gray-800 cursor-pointer">
+                        <div class="text-blue-600 underline">Show More</div>
+                    </div>
                 </div>
             </div>
         </div>
