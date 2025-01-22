@@ -1,4 +1,4 @@
 # Twitter Clone
  Twitter clone app using Tailwind CSS
 
-![Twitter Clone Image](Twitter-Clone/twitter.png)
+![Twitter Clone Image](twitter.png)
