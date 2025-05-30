@@ -14,7 +14,7 @@ A front-end clone of **X (formerly Twitter)**, built to replicate core features 
 Frontend: React.js + Vite, Tailwind CSS
 
 ## 🚀 Live Demo
-[Click here](https://xclone.om.vercel.app) to view the **X Clone** live!
+[Click here](https://twitter-clone-om-more.vercel.app/) to view the **X Clone** live!
 <br>
 
 ## 📷 Screenshots
@@ -26,7 +26,7 @@ Clone the repository and set up:
 
 ```bash
 git clone https://github.com/ommore86/Twitter-Clone.git
-cd x-clone
+cd Twitter-Clone
 npm install
 npm run dev
 ```
